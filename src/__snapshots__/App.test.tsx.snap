@@ -1,0 +1,504 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> matches snapshot 1`] = `
+.emotion-12 {
+  min-height: 100vh;
+  background-color: #FFFFFF;
+  color: #313131;
+}
+
+.emotion-1 {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+.emotion-1 button {
+  padding: 3px 6px;
+  text-transform: none;
+  font-size: 14px;
+  border-radius: 5px;
+  height: auto;
+}
+
+.emotion-0 {
+  display: inline-block;
+  background-color: rgb(235,0,141);
+  color: #FFFFFF;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  border: 0;
+  outline: none;
+}
+
+.emotion-0:hover {
+  background-color: #d2007e;
+}
+
+.emotion-0:disabled {
+  background-color: rgba(235,0,141,0.5);
+  pointer-events: none;
+}
+
+.emotion-11 {
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.emotion-10 {
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.1rem rgba(0,0,0,0.08),0 0.1rem 0.1rem rgba(0,0,0,0.14);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.emotion-9 {
+  width: 400px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+}
+
+.emotion-3 {
+  position: relative;
+  width: 100%;
+  padding: 20px 40px 0 40px;
+}
+
+.emotion-3:after {
+  position: absolute;
+  top: 28px;
+  right: 46px;
+  font-size: 28px;
+  opacity: 0.4;
+  content: 'BTC';
+}
+
+.emotion-2 {
+  font-family: 'Futura New',Futura,Avenir,sans-serif;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: rgb(25,28,31);
+  font-size: 24px;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin-bottom: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: 0;
+  border: 0;
+  background: rgba(0,0,0,0.025);
+}
+
+.emotion-6 {
+  position: relative;
+}
+
+.emotion-4 {
+  width: 400px;
+  min-height: 250px;
+  list-style: none;
+  padding: 10px 20px;
+}
+
+.emotion-5 {
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  font-size: 32px;
+  width: 100%;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  text-align: center;
+  padding: 10px;
+  color: rgba(49,49,49,0.2);
+}
+
+.emotion-8 {
+  position: relative;
+  width: 100%;
+  min-height: 120px;
+  border-top: 1px solid rgba(139,149,158,0.1);
+  padding: 0 40px 20px 40px;
+  text-align: left;
+}
+
+.emotion-8 h3 {
+  width: 100%;
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 10px 0 0 0;
+  opacity: 0.6;
+}
+
+.emotion-7 {
+  top: 36px;
+  left: 30px;
+  position: absolute;
+  text-align: center;
+  font-size: 18px;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  text-align: center;
+  padding: 10px;
+  color: rgba(49,49,49,0.2);
+}
+
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <ThemeProvider
+    theme={
+      Object {
+        "colors": Object {
+          "background": "#FFFFFF",
+          "boxShadow": "0 0 0.1rem rgba(0, 0, 0, 0.08), 0 0.1rem 0.1rem rgba(0, 0, 0, 0.14)",
+          "error": "rgb(235, 0, 141)",
+          "header": "#FFFFFF",
+          "input": "rgb(139, 149, 158)",
+          "inputBg": "rgba(0,0,0,0.025)",
+          "logo": "transparent",
+          "onBackground": "#313131",
+          "onError": "#FFFFFF",
+          "onInput": "rgb(25, 28, 31)",
+          "onPrimary": "#FFFFFF",
+          "onSecondary": "#FFFFFF",
+          "primary": "rgb(235, 0, 141)",
+          "secondary": "#0075eb",
+        },
+      }
+    }
+  >
+    <MemoryRouter
+      initialEntries={
+        Array [
+          Object {
+            "key": "ratesKey",
+            "pathname": "/rates",
+          },
+        ]
+      }
+    >
+      <Router
+        history={
+          Object {
+            "action": "POP",
+            "block": [Function],
+            "canGo": [Function],
+            "createHref": [Function],
+            "entries": Array [
+              Object {
+                "hash": "",
+                "key": "ratesKey",
+                "pathname": "/rates",
+                "search": "",
+              },
+            ],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "index": 0,
+            "length": 1,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "key": "ratesKey",
+              "pathname": "/rates",
+              "search": "",
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+      >
+        <App>
+          <ThemeProvider
+            theme={
+              Object {
+                "colors": Object {
+                  "background": "#FFFFFF",
+                  "boxShadow": "0 0 0.1rem rgba(0, 0, 0, 0.08), 0 0.1rem 0.1rem rgba(0, 0, 0, 0.14)",
+                  "error": "rgb(235, 0, 141)",
+                  "header": "#FFFFFF",
+                  "input": "rgb(139, 149, 158)",
+                  "inputBg": "rgba(0,0,0,0.025)",
+                  "logo": "transparent",
+                  "onBackground": "#313131",
+                  "onError": "#FFFFFF",
+                  "onInput": "rgb(25, 28, 31)",
+                  "onPrimary": "#FFFFFF",
+                  "onSecondary": "#FFFFFF",
+                  "primary": "rgb(235, 0, 141)",
+                  "secondary": "#0075eb",
+                },
+              }
+            }
+          >
+            <Layout>
+              <Styled(div)>
+                <div
+                  className="emotion-12"
+                >
+                  <ThemeSwitcher>
+                    <Styled(div)>
+                      <div
+                        className="emotion-1"
+                      >
+                        <Button
+                          onClick={[Function]}
+                        >
+                          <Styled(button)
+                            onClick={[Function]}
+                          >
+                            <button
+                              className="emotion-0"
+                              onClick={[Function]}
+                            >
+                              Switch Theme
+                            </button>
+                          </Styled(button)>
+                        </Button>
+                      </div>
+                    </Styled(div)>
+                  </ThemeSwitcher>
+                  <AppRoutes>
+                    <Switch>
+                      <Route
+                        component={[Function]}
+                        computedMatch={
+                          Object {
+                            "isExact": true,
+                            "params": Object {},
+                            "path": "/rates",
+                            "url": "/rates",
+                          }
+                        }
+                        exact={true}
+                        location={
+                          Object {
+                            "hash": "",
+                            "key": "ratesKey",
+                            "pathname": "/rates",
+                            "search": "",
+                          }
+                        }
+                        path="/rates"
+                      >
+                        <Rates
+                          history={
+                            Object {
+                              "action": "POP",
+                              "block": [Function],
+                              "canGo": [Function],
+                              "createHref": [Function],
+                              "entries": Array [
+                                Object {
+                                  "hash": "",
+                                  "key": "ratesKey",
+                                  "pathname": "/rates",
+                                  "search": "",
+                                },
+                              ],
+                              "go": [Function],
+                              "goBack": [Function],
+                              "goForward": [Function],
+                              "index": 0,
+                              "length": 1,
+                              "listen": [Function],
+                              "location": Object {
+                                "hash": "",
+                                "key": "ratesKey",
+                                "pathname": "/rates",
+                                "search": "",
+                              },
+                              "push": [Function],
+                              "replace": [Function],
+                            }
+                          }
+                          location={
+                            Object {
+                              "hash": "",
+                              "key": "ratesKey",
+                              "pathname": "/rates",
+                              "search": "",
+                            }
+                          }
+                          match={
+                            Object {
+                              "isExact": true,
+                              "params": Object {},
+                              "path": "/rates",
+                              "url": "/rates",
+                            }
+                          }
+                        >
+                          <CenteredBox>
+                            <Styled(div)>
+                              <div
+                                className="emotion-11"
+                              >
+                                <Styled(div)>
+                                  <div
+                                    className="emotion-10"
+                                  >
+                                    <Loader
+                                      loading={false}
+                                    >
+                                      <Styled(div)>
+                                        <div
+                                          className="emotion-9"
+                                        >
+                                          <Btc>
+                                            <Styled(div)>
+                                              <div
+                                                className="emotion-3"
+                                              >
+                                                <Input
+                                                  onChange={[Function]}
+                                                  value={1}
+                                                >
+                                                  <Styled(input)
+                                                    onChange={[Function]}
+                                                    value={1}
+                                                  >
+                                                    <input
+                                                      className="emotion-2"
+                                                      onChange={[Function]}
+                                                      value={1}
+                                                    />
+                                                  </Styled(input)>
+                                                </Input>
+                                              </div>
+                                            </Styled(div)>
+                                          </Btc>
+                                          <Currencies>
+                                            <Styled(div)>
+                                              <div
+                                                className="emotion-6"
+                                              >
+                                                <Styled(ul)>
+                                                  <ul
+                                                    className="emotion-4"
+                                                  >
+                                                    <TransitionGroup
+                                                      childFactory={[Function]}
+                                                      className="fade-container"
+                                                      component="div"
+                                                    >
+                                                      <div
+                                                        className="fade-container"
+                                                      />
+                                                    </TransitionGroup>
+                                                  </ul>
+                                                </Styled(ul)>
+                                                <Styled(div)
+                                                  className="show"
+                                                >
+                                                  <div
+                                                    className="show emotion-5"
+                                                  >
+                                                    No currencies.
+                                                  </div>
+                                                </Styled(div)>
+                                              </div>
+                                            </Styled(div)>
+                                          </Currencies>
+                                          <Add>
+                                            <Styled(div)>
+                                              <div
+                                                className="emotion-8"
+                                              >
+                                                <h3>
+                                                  Available Currencies:
+                                                </h3>
+                                                <TransitionGroup
+                                                  childFactory={[Function]}
+                                                  className="fade-container"
+                                                  component="div"
+                                                >
+                                                  <div
+                                                    className="fade-container"
+                                                  />
+                                                </TransitionGroup>
+                                                <Styled(div)
+                                                  className="show"
+                                                >
+                                                  <div
+                                                    className="show emotion-7"
+                                                  >
+                                                    No currencies.
+                                                  </div>
+                                                </Styled(div)>
+                                              </div>
+                                            </Styled(div)>
+                                          </Add>
+                                        </div>
+                                      </Styled(div)>
+                                    </Loader>
+                                  </div>
+                                </Styled(div)>
+                              </div>
+                            </Styled(div)>
+                          </CenteredBox>
+                        </Rates>
+                      </Route>
+                    </Switch>
+                  </AppRoutes>
+                </div>
+              </Styled(div)>
+            </Layout>
+          </ThemeProvider>
+        </App>
+      </Router>
+    </MemoryRouter>
+  </ThemeProvider>
+</Provider>
+`;

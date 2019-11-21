@@ -55,7 +55,7 @@ const Add = () => {
     dispatch(addCurrency(val));
   };
 
-  const emptyClass = loading || availableCurrencies.length ? 'hide' : 'show';
+  const emptyClass = 'no-currency ' + (loading || availableCurrencies.length ? 'hide' : 'show');
 
   return (
     <Wrapper>

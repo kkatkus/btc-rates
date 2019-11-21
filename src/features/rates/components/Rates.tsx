@@ -23,7 +23,7 @@ const Rates = () => {
   return (
     <CenteredBox>
       <Loader loading={loading}>
-        {error && <div id="error">{error}</div>}
+        {error && <div id="error-message">{error}</div>}
         <Wrapper>
           <Btc />
           <Currencies />

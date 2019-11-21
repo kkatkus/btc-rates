@@ -183,186 +183,146 @@ exports[`<App /> matches snapshot 1`] = `
   color: rgba(49,49,49,0.2);
 }
 
-<Provider
-  store={
-    Object {
-      "clearActions": [Function],
-      "dispatch": [Function],
-      "getActions": [Function],
-      "getState": [Function],
-      "replaceReducer": [Function],
-      "subscribe": [Function],
-    }
-  }
->
-  <ThemeProvider
-    theme={
+<MockProvider>
+  <Provider
+    store={
       Object {
-        "colors": Object {
-          "background": "#FFFFFF",
-          "boxShadow": "0 0 0.1rem rgba(0, 0, 0, 0.08), 0 0.1rem 0.1rem rgba(0, 0, 0, 0.14)",
-          "error": "rgb(235, 0, 141)",
-          "header": "#FFFFFF",
-          "input": "rgb(139, 149, 158)",
-          "inputBg": "rgba(0,0,0,0.025)",
-          "logo": "transparent",
-          "onBackground": "#313131",
-          "onError": "#FFFFFF",
-          "onInput": "rgb(25, 28, 31)",
-          "onPrimary": "#FFFFFF",
-          "onSecondary": "#FFFFFF",
-          "primary": "rgb(235, 0, 141)",
-          "secondary": "#0075eb",
-        },
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
       }
     }
   >
-    <MemoryRouter
-      initialEntries={
-        Array [
-          Object {
-            "key": "ratesKey",
-            "pathname": "/rates",
+    <ThemeProvider
+      theme={
+        Object {
+          "colors": Object {
+            "background": "#FFFFFF",
+            "boxShadow": "0 0 0.1rem rgba(0, 0, 0, 0.08), 0 0.1rem 0.1rem rgba(0, 0, 0, 0.14)",
+            "error": "rgb(235, 0, 141)",
+            "header": "#FFFFFF",
+            "input": "rgb(139, 149, 158)",
+            "inputBg": "rgba(0,0,0,0.025)",
+            "logo": "transparent",
+            "onBackground": "#313131",
+            "onError": "#FFFFFF",
+            "onInput": "rgb(25, 28, 31)",
+            "onPrimary": "#FFFFFF",
+            "onSecondary": "#FFFFFF",
+            "primary": "rgb(235, 0, 141)",
+            "secondary": "#0075eb",
           },
-        ]
+        }
       }
     >
-      <Router
-        history={
-          Object {
-            "action": "POP",
-            "block": [Function],
-            "canGo": [Function],
-            "createHref": [Function],
-            "entries": Array [
-              Object {
+      <MemoryRouter
+        initialEntries={
+          Array [
+            Object {
+              "key": "ratesKey",
+              "pathname": "/rates",
+            },
+          ]
+        }
+      >
+        <Router
+          history={
+            Object {
+              "action": "POP",
+              "block": [Function],
+              "canGo": [Function],
+              "createHref": [Function],
+              "entries": Array [
+                Object {
+                  "hash": "",
+                  "key": "ratesKey",
+                  "pathname": "/rates",
+                  "search": "",
+                },
+              ],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "index": 0,
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
                 "hash": "",
                 "key": "ratesKey",
                 "pathname": "/rates",
                 "search": "",
               },
-            ],
-            "go": [Function],
-            "goBack": [Function],
-            "goForward": [Function],
-            "index": 0,
-            "length": 1,
-            "listen": [Function],
-            "location": Object {
-              "hash": "",
-              "key": "ratesKey",
-              "pathname": "/rates",
-              "search": "",
-            },
-            "push": [Function],
-            "replace": [Function],
-          }
-        }
-      >
-        <App>
-          <ThemeProvider
-            theme={
-              Object {
-                "colors": Object {
-                  "background": "#FFFFFF",
-                  "boxShadow": "0 0 0.1rem rgba(0, 0, 0, 0.08), 0 0.1rem 0.1rem rgba(0, 0, 0, 0.14)",
-                  "error": "rgb(235, 0, 141)",
-                  "header": "#FFFFFF",
-                  "input": "rgb(139, 149, 158)",
-                  "inputBg": "rgba(0,0,0,0.025)",
-                  "logo": "transparent",
-                  "onBackground": "#313131",
-                  "onError": "#FFFFFF",
-                  "onInput": "rgb(25, 28, 31)",
-                  "onPrimary": "#FFFFFF",
-                  "onSecondary": "#FFFFFF",
-                  "primary": "rgb(235, 0, 141)",
-                  "secondary": "#0075eb",
-                },
-              }
+              "push": [Function],
+              "replace": [Function],
             }
-          >
-            <Layout>
-              <Styled(div)>
-                <div
-                  className="emotion-12"
-                >
-                  <ThemeSwitcher>
-                    <Styled(div)>
-                      <div
-                        className="emotion-1"
-                      >
-                        <Button
-                          onClick={[Function]}
+          }
+        >
+          <App>
+            <ThemeProvider
+              theme={
+                Object {
+                  "colors": Object {
+                    "background": "#FFFFFF",
+                    "boxShadow": "0 0 0.1rem rgba(0, 0, 0, 0.08), 0 0.1rem 0.1rem rgba(0, 0, 0, 0.14)",
+                    "error": "rgb(235, 0, 141)",
+                    "header": "#FFFFFF",
+                    "input": "rgb(139, 149, 158)",
+                    "inputBg": "rgba(0,0,0,0.025)",
+                    "logo": "transparent",
+                    "onBackground": "#313131",
+                    "onError": "#FFFFFF",
+                    "onInput": "rgb(25, 28, 31)",
+                    "onPrimary": "#FFFFFF",
+                    "onSecondary": "#FFFFFF",
+                    "primary": "rgb(235, 0, 141)",
+                    "secondary": "#0075eb",
+                  },
+                }
+              }
+            >
+              <Layout>
+                <Styled(div)>
+                  <div
+                    className="emotion-12"
+                  >
+                    <ThemeSwitcher>
+                      <Styled(div)>
+                        <div
+                          className="emotion-1"
                         >
-                          <Styled(button)
+                          <Button
                             onClick={[Function]}
                           >
-                            <button
-                              className="emotion-0"
+                            <Styled(button)
                               onClick={[Function]}
                             >
-                              Switch Theme
-                            </button>
-                          </Styled(button)>
-                        </Button>
-                      </div>
-                    </Styled(div)>
-                  </ThemeSwitcher>
-                  <AppRoutes>
-                    <Switch>
-                      <Route
-                        component={[Function]}
-                        computedMatch={
-                          Object {
-                            "isExact": true,
-                            "params": Object {},
-                            "path": "/rates",
-                            "url": "/rates",
-                          }
-                        }
-                        exact={true}
-                        location={
-                          Object {
-                            "hash": "",
-                            "key": "ratesKey",
-                            "pathname": "/rates",
-                            "search": "",
-                          }
-                        }
-                        path="/rates"
-                      >
-                        <Rates
-                          history={
+                              <button
+                                className="emotion-0"
+                                onClick={[Function]}
+                              >
+                                Switch Theme
+                              </button>
+                            </Styled(button)>
+                          </Button>
+                        </div>
+                      </Styled(div)>
+                    </ThemeSwitcher>
+                    <AppRoutes>
+                      <Switch>
+                        <Route
+                          component={[Function]}
+                          computedMatch={
                             Object {
-                              "action": "POP",
-                              "block": [Function],
-                              "canGo": [Function],
-                              "createHref": [Function],
-                              "entries": Array [
-                                Object {
-                                  "hash": "",
-                                  "key": "ratesKey",
-                                  "pathname": "/rates",
-                                  "search": "",
-                                },
-                              ],
-                              "go": [Function],
-                              "goBack": [Function],
-                              "goForward": [Function],
-                              "index": 0,
-                              "length": 1,
-                              "listen": [Function],
-                              "location": Object {
-                                "hash": "",
-                                "key": "ratesKey",
-                                "pathname": "/rates",
-                                "search": "",
-                              },
-                              "push": [Function],
-                              "replace": [Function],
+                              "isExact": true,
+                              "params": Object {},
+                              "path": "/rates",
+                              "url": "/rates",
                             }
                           }
+                          exact={true}
                           location={
                             Object {
                               "hash": "",
@@ -371,134 +331,176 @@ exports[`<App /> matches snapshot 1`] = `
                               "search": "",
                             }
                           }
-                          match={
-                            Object {
-                              "isExact": true,
-                              "params": Object {},
-                              "path": "/rates",
-                              "url": "/rates",
-                            }
-                          }
+                          path="/rates"
                         >
-                          <CenteredBox>
-                            <Styled(div)>
-                              <div
-                                className="emotion-11"
-                              >
-                                <Styled(div)>
-                                  <div
-                                    className="emotion-10"
-                                  >
-                                    <Loader
-                                      loading={false}
+                          <Rates
+                            history={
+                              Object {
+                                "action": "POP",
+                                "block": [Function],
+                                "canGo": [Function],
+                                "createHref": [Function],
+                                "entries": Array [
+                                  Object {
+                                    "hash": "",
+                                    "key": "ratesKey",
+                                    "pathname": "/rates",
+                                    "search": "",
+                                  },
+                                ],
+                                "go": [Function],
+                                "goBack": [Function],
+                                "goForward": [Function],
+                                "index": 0,
+                                "length": 1,
+                                "listen": [Function],
+                                "location": Object {
+                                  "hash": "",
+                                  "key": "ratesKey",
+                                  "pathname": "/rates",
+                                  "search": "",
+                                },
+                                "push": [Function],
+                                "replace": [Function],
+                              }
+                            }
+                            location={
+                              Object {
+                                "hash": "",
+                                "key": "ratesKey",
+                                "pathname": "/rates",
+                                "search": "",
+                              }
+                            }
+                            match={
+                              Object {
+                                "isExact": true,
+                                "params": Object {},
+                                "path": "/rates",
+                                "url": "/rates",
+                              }
+                            }
+                          >
+                            <CenteredBox>
+                              <Styled(div)>
+                                <div
+                                  className="emotion-11"
+                                >
+                                  <Styled(div)>
+                                    <div
+                                      className="emotion-10"
                                     >
-                                      <Styled(div)>
-                                        <div
-                                          className="emotion-9"
-                                        >
-                                          <Btc>
-                                            <Styled(div)>
-                                              <div
-                                                className="emotion-3"
-                                              >
-                                                <Input
-                                                  onChange={[Function]}
-                                                  value={1}
+                                      <Loader
+                                        loading={false}
+                                      >
+                                        <Styled(div)>
+                                          <div
+                                            className="emotion-9"
+                                          >
+                                            <Btc>
+                                              <Styled(div)>
+                                                <div
+                                                  className="emotion-3"
                                                 >
-                                                  <Styled(input)
+                                                  <Input
                                                     onChange={[Function]}
-                                                    value={1}
+                                                    value="1"
                                                   >
-                                                    <input
-                                                      className="emotion-2"
+                                                    <Styled(input)
                                                       onChange={[Function]}
-                                                      value={1}
-                                                    />
-                                                  </Styled(input)>
-                                                </Input>
-                                              </div>
-                                            </Styled(div)>
-                                          </Btc>
-                                          <Currencies>
-                                            <Styled(div)>
-                                              <div
-                                                className="emotion-6"
-                                              >
-                                                <Styled(ul)>
-                                                  <ul
-                                                    className="emotion-4"
-                                                  >
-                                                    <TransitionGroup
-                                                      childFactory={[Function]}
-                                                      className="fade-container"
-                                                      component="div"
+                                                      value="1"
                                                     >
-                                                      <div
-                                                        className="fade-container"
+                                                      <input
+                                                        className="emotion-2"
+                                                        onChange={[Function]}
+                                                        value="1"
                                                       />
-                                                    </TransitionGroup>
-                                                  </ul>
-                                                </Styled(ul)>
-                                                <Styled(div)
-                                                  className="show"
+                                                    </Styled(input)>
+                                                  </Input>
+                                                </div>
+                                              </Styled(div)>
+                                            </Btc>
+                                            <Currencies>
+                                              <Styled(div)>
+                                                <div
+                                                  className="emotion-6"
                                                 >
-                                                  <div
-                                                    className="show emotion-5"
+                                                  <Styled(ul)>
+                                                    <ul
+                                                      className="emotion-4"
+                                                    >
+                                                      <TransitionGroup
+                                                        childFactory={[Function]}
+                                                        className="fade-container"
+                                                        component="div"
+                                                      >
+                                                        <div
+                                                          className="fade-container"
+                                                        />
+                                                      </TransitionGroup>
+                                                    </ul>
+                                                  </Styled(ul)>
+                                                  <Styled(div)
+                                                    className="show"
                                                   >
-                                                    No currencies.
-                                                  </div>
-                                                </Styled(div)>
-                                              </div>
-                                            </Styled(div)>
-                                          </Currencies>
-                                          <Add>
-                                            <Styled(div)>
-                                              <div
-                                                className="emotion-8"
-                                              >
-                                                <h3>
-                                                  Available Currencies:
-                                                </h3>
-                                                <TransitionGroup
-                                                  childFactory={[Function]}
-                                                  className="fade-container"
-                                                  component="div"
+                                                    <div
+                                                      className="show emotion-5"
+                                                    >
+                                                      No currencies.
+                                                    </div>
+                                                  </Styled(div)>
+                                                </div>
+                                              </Styled(div)>
+                                            </Currencies>
+                                            <Add>
+                                              <Styled(div)>
+                                                <div
+                                                  className="emotion-8"
                                                 >
-                                                  <div
+                                                  <h3>
+                                                    Available Currencies:
+                                                  </h3>
+                                                  <TransitionGroup
+                                                    childFactory={[Function]}
                                                     className="fade-container"
-                                                  />
-                                                </TransitionGroup>
-                                                <Styled(div)
-                                                  className="show"
-                                                >
-                                                  <div
-                                                    className="show emotion-7"
+                                                    component="div"
                                                   >
-                                                    No currencies.
-                                                  </div>
-                                                </Styled(div)>
-                                              </div>
-                                            </Styled(div)>
-                                          </Add>
-                                        </div>
-                                      </Styled(div)>
-                                    </Loader>
-                                  </div>
-                                </Styled(div)>
-                              </div>
-                            </Styled(div)>
-                          </CenteredBox>
-                        </Rates>
-                      </Route>
-                    </Switch>
-                  </AppRoutes>
-                </div>
-              </Styled(div)>
-            </Layout>
-          </ThemeProvider>
-        </App>
-      </Router>
-    </MemoryRouter>
-  </ThemeProvider>
-</Provider>
+                                                    <div
+                                                      className="fade-container"
+                                                    />
+                                                  </TransitionGroup>
+                                                  <Styled(div)
+                                                    className="no-currency show"
+                                                  >
+                                                    <div
+                                                      className="no-currency show emotion-7"
+                                                    >
+                                                      No currencies.
+                                                    </div>
+                                                  </Styled(div)>
+                                                </div>
+                                              </Styled(div)>
+                                            </Add>
+                                          </div>
+                                        </Styled(div)>
+                                      </Loader>
+                                    </div>
+                                  </Styled(div)>
+                                </div>
+                              </Styled(div)>
+                            </CenteredBox>
+                          </Rates>
+                        </Route>
+                      </Switch>
+                    </AppRoutes>
+                  </div>
+                </Styled(div)>
+              </Layout>
+            </ThemeProvider>
+          </App>
+        </Router>
+      </MemoryRouter>
+    </ThemeProvider>
+  </Provider>
+</MockProvider>
 `;

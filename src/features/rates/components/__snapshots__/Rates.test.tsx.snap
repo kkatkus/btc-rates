@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Rates /> matches snapshot 1`] = `
+.emotion-9 {
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.emotion-8 {
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.1rem rgba(0,0,0,0.08),0 0.1rem 0.1rem rgba(0,0,0,0.14);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.emotion-7 {
+  width: 400px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+}
+
+.emotion-1 {
+  position: relative;
+  width: 100%;
+  padding: 20px 40px 0 40px;
+}
+
+.emotion-1:after {
+  position: absolute;
+  top: 28px;
+  right: 46px;
+  font-size: 28px;
+  opacity: 0.4;
+  content: 'BTC';
+}
+
+.emotion-0 {
+  font-family: 'Futura New',Futura,Avenir,sans-serif;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: rgb(25,28,31);
+  font-size: 24px;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin-bottom: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: 0;
+  border: 0;
+  background: rgba(0,0,0,0.025);
+}
+
+.emotion-4 {
+  position: relative;
+}
+
+.emotion-2 {
+  width: 400px;
+  min-height: 250px;
+  list-style: none;
+  padding: 10px 20px;
+}
+
+.emotion-3 {
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  font-size: 32px;
+  width: 100%;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  text-align: center;
+  padding: 10px;
+  color: rgba(49,49,49,0.2);
+}
+
+.emotion-6 {
+  position: relative;
+  width: 100%;
+  min-height: 120px;
+  border-top: 1px solid rgba(139,149,158,0.1);
+  padding: 0 40px 20px 40px;
+  text-align: left;
+}
+
+.emotion-6 h3 {
+  width: 100%;
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 10px 0 0 0;
+  opacity: 0.6;
+}
+
+.emotion-5 {
+  top: 36px;
+  left: 30px;
+  position: absolute;
+  text-align: center;
+  font-size: 18px;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  text-align: center;
+  padding: 10px;
+  color: rgba(49,49,49,0.2);
+}
+
+<MockProvider>
+  <Provider
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  >
+    <ThemeProvider
+      theme={
+        Object {
+          "colors": Object {
+            "background": "#FFFFFF",
+            "boxShadow": "0 0 0.1rem rgba(0, 0, 0, 0.08), 0 0.1rem 0.1rem rgba(0, 0, 0, 0.14)",
+            "error": "rgb(235, 0, 141)",
+            "header": "#FFFFFF",
+            "input": "rgb(139, 149, 158)",
+            "inputBg": "rgba(0,0,0,0.025)",
+            "logo": "transparent",
+            "onBackground": "#313131",
+            "onError": "#FFFFFF",
+            "onInput": "rgb(25, 28, 31)",
+            "onPrimary": "#FFFFFF",
+            "onSecondary": "#FFFFFF",
+            "primary": "rgb(235, 0, 141)",
+            "secondary": "#0075eb",
+          },
+        }
+      }
+    >
+      <Rates>
+        <CenteredBox>
+          <Styled(div)>
+            <div
+              className="emotion-9"
+            >
+              <Styled(div)>
+                <div
+                  className="emotion-8"
+                >
+                  <Loader
+                    loading={false}
+                  >
+                    <Styled(div)>
+                      <div
+                        className="emotion-7"
+                      >
+                        <Btc>
+                          <Styled(div)>
+                            <div
+                              className="emotion-1"
+                            >
+                              <Input
+                                onChange={[Function]}
+                                value="1"
+                              >
+                                <Styled(input)
+                                  onChange={[Function]}
+                                  value="1"
+                                >
+                                  <input
+                                    className="emotion-0"
+                                    onChange={[Function]}
+                                    value="1"
+                                  />
+                                </Styled(input)>
+                              </Input>
+                            </div>
+                          </Styled(div)>
+                        </Btc>
+                        <Currencies>
+                          <Styled(div)>
+                            <div
+                              className="emotion-4"
+                            >
+                              <Styled(ul)>
+                                <ul
+                                  className="emotion-2"
+                                >
+                                  <TransitionGroup
+                                    childFactory={[Function]}
+                                    className="fade-container"
+                                    component="div"
+                                  >
+                                    <div
+                                      className="fade-container"
+                                    />
+                                  </TransitionGroup>
+                                </ul>
+                              </Styled(ul)>
+                              <Styled(div)
+                                className="show"
+                              >
+                                <div
+                                  className="show emotion-3"
+                                >
+                                  No currencies.
+                                </div>
+                              </Styled(div)>
+                            </div>
+                          </Styled(div)>
+                        </Currencies>
+                        <Add>
+                          <Styled(div)>
+                            <div
+                              className="emotion-6"
+                            >
+                              <h3>
+                                Available Currencies:
+                              </h3>
+                              <TransitionGroup
+                                childFactory={[Function]}
+                                className="fade-container"
+                                component="div"
+                              >
+                                <div
+                                  className="fade-container"
+                                />
+                              </TransitionGroup>
+                              <Styled(div)
+                                className="no-currency show"
+                              >
+                                <div
+                                  className="no-currency show emotion-5"
+                                >
+                                  No currencies.
+                                </div>
+                              </Styled(div)>
+                            </div>
+                          </Styled(div)>
+                        </Add>
+                      </div>
+                    </Styled(div)>
+                  </Loader>
+                </div>
+              </Styled(div)>
+            </div>
+          </Styled(div)>
+        </CenteredBox>
+      </Rates>
+    </ThemeProvider>
+  </Provider>
+</MockProvider>
+`;

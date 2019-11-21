@@ -1,5 +1,3 @@
-import Big from 'big.js';
-
 export default interface RateDto {
   code: string;
   symbol: string;

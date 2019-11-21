@@ -4,6 +4,15 @@ import Rates from './Rates';
 
 import Big from 'big.js';
 
+export const parseValue = (val: string): string => {
+  if (val === undefined || val === null) {
+    return '';
+  }
+  let result = val === '.' || val === ',' ? '0.' : val;
+  result = result.replace(',', '.');
+  return result;
+};
+
 export const validateValueFormat = (val: string): boolean => {
   return /^\d{0,6}\.?\d{0,6}$/.test(val);
 };

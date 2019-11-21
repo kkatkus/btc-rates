@@ -8,7 +8,7 @@ import { removeCurrency } from '../rates.actions';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 import RootState from '../../../RootState';
-import Money from './Money';
+import Currency from './Currency';
 import Symbol from './Symbol';
 import Button from '../../../shared/components/Button';
 
@@ -85,8 +85,10 @@ const Currencies = () => {
               <Li key={c}>
                 <Symbol symbol={rates[c].symbol} />
                 <Code>{rates[c].code}</Code>
-                <Money btc={btc} currency={rates[c].code} rate={rates[c].rate} />
-                <RemoveButton onClick={() => handleRemoveCurrency(c)}>x</RemoveButton>
+                <Currency btc={btc} currency={rates[c].code} rate={rates[c].rate} />
+                <RemoveButton className="remove-currency" onClick={() => handleRemoveCurrency(c)}>
+                  x
+                </RemoveButton>
               </Li>
             </CSSTransition>
           ))}

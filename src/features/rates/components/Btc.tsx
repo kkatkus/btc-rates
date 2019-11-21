@@ -4,14 +4,13 @@ import styled from '@emotion/styled';
 import { useSelector, useDispatch } from 'react-redux';
 import RootState from '../../../RootState';
 import Input from '../../../shared/components/Input';
-import { validateValueFormat } from '../helper';
+import { validateValueFormat, parseValue } from '../helper';
 import { updateBtc } from '../rates.actions';
 
 const Wrapper = styled('div')`
   position: relative;
   width: 100%;
   padding: 20px 40px 0 40px;
-
   :after {
     position: absolute;
     top: 28px;
@@ -24,16 +23,14 @@ const Wrapper = styled('div')`
 
 const Btc = () => {
   const [btc] = useSelector((state: RootState) => [state.rates.btc]);
-
   const dispatch = useDispatch();
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const val = e.target.value === '.' || e.target.value === ',' ? '0.' : e.target.value;
-
+    const val = parseValue(e.target.value);
     if (!validateValueFormat(val)) {
       return;
     }
-    dispatch(updateBtc(val.replace(',', '.')));
+    dispatch(updateBtc(val));
   };
 
   return (
